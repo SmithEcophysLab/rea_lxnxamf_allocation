@@ -12,7 +12,7 @@ library(emmeans)
 library(multcomp)
 library(mvtnorm)
 
-## load multcompView## load data
+## load data
 biomass_data <- read.csv('../data/lxnxamf_biomass.csv')
 head(biomass_data)
 
