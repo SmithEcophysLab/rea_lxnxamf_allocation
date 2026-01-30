@@ -139,3 +139,8 @@ rootshoot_plot <- ggplot(aes(x = amf_treatment, y = rootshoot, alpha = light_tre
   xlab('AMF Treatment') +
   ylab('Root:Shoot') +
   ylim(c(0, 2))
+
+jpeg(filename = "../results/plots/rea_rootshoot.jpeg", 
+     width = 8, height = 8, units = 'in', res = 300)
+plot(rootshoot_plot)
+dev.off()
